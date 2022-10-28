@@ -1,9 +1,25 @@
-Project:
-The Internet - Webdriver Tests - Google chrome Browser.
-
+# Project: Webdriver Tests
+# The Internet - Webdriver Tests - Google chrome Browser.
 Webdriver - Testng - Maven - java 19
 
-Description:
+## Prerequisites
+* Docker
++ Git
+- Java 19
+* Webdriver
++ ChromeDriver | 
+* IDE such as IntelliJ
+
+## Steps
+1. Pull Docker image for the-internet app:
+
+   `docker pull gprestes/the-internet`
+
+2. Run the following command:
+
+   `docker run -d -p 7080:5000 gprestes/the-internet`
+
+# Description:
 this Script for Testing the following scenarios in Java:
 * Test Specific Rubrics
 * Login Success
