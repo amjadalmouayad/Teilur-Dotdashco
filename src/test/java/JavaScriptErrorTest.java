@@ -21,7 +21,6 @@ public class JavaScriptErrorTest {
     public static void openURL() {
         // open | URL
         driver.get(TestURL);
-        String ExpectedTitle = null;
     }
 
     public static void setWindowSize() {
@@ -32,12 +31,12 @@ public class JavaScriptErrorTest {
     //    Test asserts that the page contains error: Cannot read property 'xyz' of undefined
     public static void assertsJSError() {
         try {
-            String actual = "";
+            StringBuilder actual = new StringBuilder();
             String expected = "Cannot read properties of undefined (reading 'xyz')";
             LogEntries logEntries = driver.manage().logs().get(LogType.BROWSER);
 
             for (LogEntry entry : logEntries) {
-                actual = entry.getMessage() + actual;
+                actual.insert(0, entry.getMessage());
             }
             assertEquals(actual.substring(actual.length() - expected.length()), expected);
             System.out.println("page contains error: Cannot read properties of undefined (reading 'xyz') - Passed");
