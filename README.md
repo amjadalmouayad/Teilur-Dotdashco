@@ -20,7 +20,7 @@ Webdriver - Testng - Maven - java 19
    `docker run -d -p 7080:5000 gprestes/the-internet`
 
 # Description:
-this Script for Testing the following scenarios in Java:
+This Script for Testing the following scenarios in Java:
 * Test Specific Rubrics
 * Login Success
 * Login Failure
