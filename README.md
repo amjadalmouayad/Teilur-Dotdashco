@@ -7,7 +7,7 @@ Webdriver - Testng - Maven - java 19
 + Git
 - Java 19
 * Webdriver
-+ ChromeDriver | 19
++ ChromeDriver | 106.0.5249.61
 * IDE such as IntelliJ
 
 ## Steps
