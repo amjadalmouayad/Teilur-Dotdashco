@@ -1,0 +1,112 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1">
+    <test name="CheckBoxTest">
+        <classes>
+            <class name="CheckBoxTest"/>
+        </classes>
+    </test>
+
+    <test name="LoginSuccessTest">
+        <classes>
+            <class name="LoginSuccessTest"/>
+        </classes>
+    </test>
+
+    <test name="DynamicContentTest">
+        <classes>
+            <class name="DynamicContentTest"/>
+        </classes>
+    </test>
+
+    <test name="LoginFailureTest">
+        <classes>
+            <class name="LoginFailureTest"/>
+        </classes>
+    </test>
+
+    <test name="DropdownTest">
+        <classes>
+            <class name="DropdownTest"/>
+        </classes>
+    </test>
+
+    <test name="ContextMenuTest">
+        <classes>
+            <class name="ContextMenuTest"/>
+        </classes>
+    </test>
+
+    <test name="DynamicLoadingTest">
+        <classes>
+            <class name="DynamicLoadingTest"/>
+        </classes>
+    </test>
+
+    <test name="FileDownloadTest">
+        <classes>
+            <class name="FileDownloadTest"/>
+        </classes>
+    </test>
+
+    <test name="FileUploadTest">
+        <classes>
+            <class name="FileUploadTest"/>
+        </classes>
+    </test>
+
+    <test name="iFrameTest">
+        <classes>
+            <class name="iFrameTest"/>
+        </classes>
+    </test>
+
+    <test name="JavaScriptAlertsTest">
+        <classes>
+            <class name="JavaScriptAlertsTest"/>
+        </classes>
+    </test>
+
+    <test name="JavaScriptErrorTest">
+        <classes>
+            <class name="JavaScriptErrorTest"/>
+        </classes>
+    </test>
+
+    <test name="OpenNewTabTest">
+        <classes>
+            <class name="OpenNewTabTest"/>
+        </classes>
+    </test>
+
+    <test name="NotificationMessageTest">
+        <classes>
+            <class name="NotificationMessageTest"/>
+        </classes>
+    </test>
+
+    <test name="MouseHoverTest">
+        <classes>
+            <class name="MouseHoverTest"/>
+        </classes>
+    </test>
+
+    <test name="DynamicControlsTest">
+        <classes>
+            <class name="DynamicControlsTest"/>
+        </classes>
+    </test>
+
+    <test name="FloatingMenuTest">
+        <classes>
+            <class name="FloatingMenuTest"/>
+        </classes>
+    </test>
+
+    <test name="DragDropTest">
+        <classes>
+            <class name="DragDropTest"/>
+        </classes>
+    </test>
+
+</suite>

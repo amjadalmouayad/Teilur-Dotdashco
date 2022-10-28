@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="selenium-java-4.5.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/selenium-java-4.5.21.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-java/4.5.2/selenium-java-4.5.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/selenium-java-4.5.2-sources1.jar!/" />
+    </SOURCES>
+  </library>
+</component>
