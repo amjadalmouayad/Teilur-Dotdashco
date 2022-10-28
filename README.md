@@ -1,5 +1,5 @@
 # Project: Webdriver Tests
-# The Internet - Webdriver Tests - Google chrome Browser.
+The Internet - Webdriver Tests - Google chrome Browser.
 Webdriver - Testng - Maven - java 19
 
 ## Prerequisites
@@ -7,7 +7,7 @@ Webdriver - Testng - Maven - java 19
 + Git
 - Java 19
 * Webdriver
-+ ChromeDriver | 
++ ChromeDriver | 19
 * IDE such as IntelliJ
 
 ## Steps
